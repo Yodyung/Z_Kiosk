@@ -93,7 +93,7 @@ public class PanelC extends JPanel {  //일식 패널C 설정하기!
             int answer = JOptionPane.showConfirmDialog(null, "선택하시겠습니까?", "메뉴", JOptionPane.YES_NO_OPTION);  // yes,no 2개 선택 옵션 주고
             if (answer == JOptionPane.YES_OPTION) {    // 대답이 yes면
                parent.money += 7000;                  // 메인의 money를 불러와서 money = money +7000 
-               parent.ta.append("초밥   | ");          // textfield에 초밥
+               parent.ta.append("초밥	| ");          // textfield에 초밥
                parent.ta.append("7000원 \n");          // 7000원 띄우기   --> 사라지면 안되니까 append 사용
 
             } else {                                   // 대답이 no면
@@ -109,7 +109,7 @@ public class PanelC extends JPanel {  //일식 패널C 설정하기!
             int answer = JOptionPane.showConfirmDialog(null, "선택하시겠습니까?", "메뉴", JOptionPane.YES_NO_OPTION);
             if (answer == JOptionPane.YES_OPTION) {
                parent.money += 5500;
-               parent.ta.append("돈까스   | ");
+               parent.ta.append("돈까스	| ");
                parent.ta.append("5500원 \n");
 
             } else {
@@ -124,7 +124,7 @@ public class PanelC extends JPanel {  //일식 패널C 설정하기!
             int answer = JOptionPane.showConfirmDialog(null, "선택하시겠습니까?", "메뉴", JOptionPane.YES_NO_OPTION);
             if (answer == JOptionPane.YES_OPTION) {
                parent.money += 4000;
-               parent.ta.append("카레     | ");
+               parent.ta.append("카레	| ");
                parent.ta.append("4000원 \n");
             } else {
                System.out.print(" ");
@@ -139,7 +139,7 @@ public class PanelC extends JPanel {  //일식 패널C 설정하기!
             int answer = JOptionPane.showConfirmDialog(null, "선택하시겠습니까?", "메뉴", JOptionPane.YES_NO_OPTION);
             if (answer == JOptionPane.YES_OPTION) {
                parent.money += 5500;
-               parent.ta.append("우동   | ");
+               parent.ta.append("우동	| ");
                parent.ta.append("5500원 \n");
             } else {
                System.out.print(" ");
@@ -153,7 +153,7 @@ public class PanelC extends JPanel {  //일식 패널C 설정하기!
             int answer = JOptionPane.showConfirmDialog(null, "선택하시겠습니까?", "메뉴", JOptionPane.YES_NO_OPTION);
             if (answer == JOptionPane.YES_OPTION) {
                parent.money += 9500;
-               parent.ta.append("텐동   | ");
+               parent.ta.append("텐동	| ");
                parent.ta.append("9500원 \n");
             } else {
                System.out.print(" ");
@@ -167,7 +167,7 @@ public class PanelC extends JPanel {  //일식 패널C 설정하기!
             int answer = JOptionPane.showConfirmDialog(null, "선택하시겠습니까?", "메뉴", JOptionPane.YES_NO_OPTION);
             if (answer == JOptionPane.YES_OPTION) {
                parent.money += 6000;
-               parent.ta.append("라멘   | ");
+               parent.ta.append("라멘	| ");
                parent.ta.append("6000원 \n");
 
             } else {
